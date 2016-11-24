@@ -1,0 +1,139 @@
+[{
+  "id": 0,
+  "subjects": ["phy", "chem"]
+}, {
+  "id": 1,
+  "subjects": ["phy", "cscb"]
+}, {
+  "id": 2,
+  "subjects": ["phy", "econ"]
+}, {
+  "id": 3,
+  "subjects": ["phy", "geog"]
+}, {
+  "id": 4,
+  "subjects": ["phy", "hist"]
+}, {
+  "id": 5,
+  "subjects": ["phy", "ict2"]
+}, {
+  "id": 6,
+  "subjects": ["bio", "chem"]
+}, {
+  "id": 7,
+  "subjects": ["bio", "cscp"]
+}, {
+  "id": 8,
+  "subjects": ["bio", "econ"]
+}, {
+  "id": 9,
+  "subjects": ["bio", "geog"]
+}, {
+  "id": 10,
+  "subjects": ["bio", "hist"]
+}, {
+  "id": 11,
+  "subjects": ["bio", "ict2"]
+}, {
+  "id": 12,
+  "subjects": ["bafs", "chem"]
+}, {
+  "id": 13,
+  "subjects": ["bafs", "cscb"]
+}, {
+  "id": 14,
+  "subjects": ["bafs", "cscp"]
+}, {
+  "id": 15,
+  "subjects": ["bafs", "econ"]
+}, {
+  "id": 16,
+  "subjects": ["bafs", "geog"]
+}, {
+  "id": 17,
+  "subjects": ["bafs", "hist"]
+}, {
+  "id": 18,
+  "subjects": ["bafs", "ict2"]
+}, {
+  "id": 19,
+  "subjects": ["ths", "chem"]
+}, {
+  "id": 20,
+  "subjects": ["ths", "cscb"]
+}, {
+  "id": 21,
+  "subjects": ["ths", "cscp"]
+}, {
+  "id": 22,
+  "subjects": ["ths", "econ"]
+}, {
+  "id": 23,
+  "subjects": ["ths", "geog"]
+}, {
+  "id": 24,
+  "subjects": ["ths", "hist"]
+}, {
+  "id": 25,
+  "subjects": ["ths", "ict2"]
+}, {
+  "id": 26,
+  "subjects": ["chist", "chem"]
+}, {
+  "id": 27,
+  "subjects": ["chist", "cscb"]
+}, {
+  "id": 28,
+  "subjects": ["chist", "cscp"]
+}, {
+  "id": 29,
+  "subjects": ["chist", "econ"]
+}, {
+  "id": 30,
+  "subjects": ["chist", "geog"]
+}, {
+  "id": 31,
+  "subjects": ["chist", "hist"]
+}, {
+  "id": 32,
+  "subjects": ["chist", "ict2"]
+}, {
+  "id": 33,
+  "subjects": ["ict1", "chem"]
+}, {
+  "id": 34,
+  "subjects": ["ict1", "cscb"]
+}, {
+  "id": 35,
+  "subjects": ["ict1", "cscp"]
+}, {
+  "id": 36,
+  "subjects": ["ict1", "econ"]
+}, {
+  "id": 37,
+  "subjects": ["ict1", "geog"]
+}, {
+  "id": 38,
+  "subjects": ["ict1", "hist"]
+}, {
+  "id": 39,
+  "subjects": ["va", "chem"]
+}, {
+  "id": 40,
+  "subjects": ["va", "cscb"]
+}, {
+  "id": 41,
+  "subjects": ["va", "cscp"]
+}, {
+  "id": 42,
+  "subjects": ["va", "econ"]
+}, {
+  "id": 43,
+  "subjects": ["va", "geog"]
+}, {
+  "id": 44,
+  "subjects": ["va", "hist"]
+}, {
+  "id": 45,
+  "subjects": ["va", "ict2"]
+}]
