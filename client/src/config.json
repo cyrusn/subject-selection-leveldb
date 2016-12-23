@@ -1,0 +1,17 @@
+{
+  "schoolName": "聖公會李炳中學",
+  "title": "高中選科",
+  "mockTitle": "高中模擬選科",
+  "schoolWebsite": "http://liping.edu.hk",
+  "committeeInCharge": "生涯規劃部",
+  "committeeWebsite": "http://188.166.212.151",
+  "schoolYear": "2016-17",
+  "noticeCode": "G194/2015-2016",
+  "pics": ["葉文駿", "楊天頴"],
+  "committeeHead" : "顏昭洋",
+  "deliveryDate": "2016-05-10",
+  "returnYear": "2016",
+  "deadline": "2016-05-31",
+  "isMock": false,
+  "serverBase": "http://188.166.212.151:3000"
+}
