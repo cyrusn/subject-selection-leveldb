@@ -1,5 +1,5 @@
 const Combination = require('../../json/combination');
-const OleSubjects = require('../../json/oles');
+// const OleSubjects = require('../../json/oles');
 const _ = require('lodash');
 
 // convert the subjects in combo to string,
@@ -18,7 +18,8 @@ const convertCombosArrayToObject = combos => combos
 // convert array of ole ids to
 // object with {'ole string': priority}
 // the return value is the priority with starting index 1
-const convertOlesArrayToObjectoles = oles => oles
-  .map((id, index) => ({[OleSubjects[id].name]: index + 1}));
+// const convertOlesArrayToObjectoles = oles => oles
+//   .map((id, index) => ({[OleSubjects[id].name]: index + 1}));
 
-module.exports = {getComboById, combo2Key, convertCombosArrayToObject, convertOlesArrayToObjectoles};
+// module.exports = {getComboById, combo2Key, convertCombosArrayToObject, convertOlesArrayToObjectoles};
+module.exports = {getComboById, combo2Key, convertCombosArrayToObject};

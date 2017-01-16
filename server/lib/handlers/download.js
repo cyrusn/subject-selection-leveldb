@@ -5,11 +5,11 @@ const DB = require('../db').db;
 const Boom = require('boom');
 const json2csv = require('json2csv');
 const Moment = require('moment');
-const OleSubjects = require('../../../json/oles');
 const getComboById = require('../../utils/csvHelper').getComboById;
 const combo2Key = require('../../utils/csvHelper').combo2Key;
 const convertCombosArrayToObject = require('../../utils/csvHelper').convertCombosArrayToObject;
-const convertOlesArrayToObjectoles = require('../../utils/csvHelper').convertOlesArrayToObjectoles;
+// const convertOlesArrayToObjectoles = require('../../utils/csvHelper').convertOlesArrayToObjectoles;
+// const OleSubjects = require('../../../json/oles');
 
 module.exports = (request, reply) => {
   const type = request.params.type;
@@ -45,11 +45,12 @@ module.exports = (request, reply) => {
       // convert array of ole ids to
       // object with {'ole string': priority}
       // the return value is the priority with starting index 1
-      const oles = convertOlesArrayToObjectoles(user.value.subjectPriority.oles);
+      // const oles = convertOlesArrayToObjectoles(user.value.subjectPriority.oles);
 
       // flatten all objects
       result.push(
-        Object.assign({}, info, ...combos, ...oles)
+        // Object.assign({}, info, ...combos, ...oles)
+        Object.assign({}, info, ...combos)
       );
       return;
     })
@@ -82,7 +83,7 @@ module.exports = (request, reply) => {
         // combos headers
         ..._.range(Combination.length).map(comboId => combo2Key('+', getComboById(comboId))),
         // Oles header
-        ..._.pluck(OleSubjects, 'name')
+        // ..._.pluck(OleSubjects, 'name')
       ];
 
       json2csv({ data: _.sortBy(result, 'classNo'), fields: headers }, function (err, csv) {

@@ -19,7 +19,7 @@ const importUser = (user, isAdmin, callback) => {
   if (!isAdmin) {
     const subjectPriority = {
       combos: [],
-      oles: [0, 1, 2],
+      // oles: [0, 1, 2],
       isConfirmed: false
       // combos: _(46).range().shuffle().value(),
       // oles: _.shuffle([0, 1, 2]),

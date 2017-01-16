@@ -1,71 +1,61 @@
  [{
    "id": "bafs",
    "group": 1,
-   "name": "bafs",
-   "cname": "企業"
+   "name": "Business, Accounting and Financial Studies",
+   "cname": "企業、會計與財務概論"
  }, {
    "id": "bio",
    "group": 1,
-   "name": "bio",
+   "name": "Biology",
    "cname": "生物"
  }, {
    "id": "chem",
    "group": 2,
-   "name": "chem",
+   "name": "Chemistry",
    "cname": "化學"
  }, {
    "id": "chist",
    "group": 1,
-   "name": "chist",
+   "name": "Chinese History",
    "cname": "中國歷史"
  }, {
    "id": "cscb",
    "group": 2,
-   "name": "cscb",
-   "cname": "組合(化/生)"
- }, {
-   "id": "cscp",
-   "group": 2,
-   "name": "cscp",
-   "cname": "組合(化/物)"
+   "name": "Combine Science (Chemistry / Biology)",
+   "cname": "組合科學 (化學 / 生物)"
  }, {
    "id": "econ",
    "group": 2,
-   "name": "econ",
+   "name": "Economics",
    "cname": "經濟"
  }, {
    "id": "geog",
    "group": 2,
-   "name": "geog",
+   "name": "Geography",
    "cname": "地理"
  }, {
    "id": "hist",
    "group": 2,
-   "name": "hist",
+   "name": "History",
    "cname": "歷史"
  }, {
-   "id": "ict1",
-   "group": 1,
-   "name": "ict1",
-   "cname": "資訊科技"
- },{
-   "id": "ict2",
+   "id": "ict",
    "group": 2,
-   "name": "ict2",
-   "cname": "資訊科技"
+   "name": "Information and Communication Technology",
+   "cname": "資訊及通訊科技"
  }, {
    "id": "phy",
    "group": 1,
-   "name": "phy",
+   "name": "Physics",
    "cname": "物理"
  }, {
    "id": "ths",
    "group": 1,
-   "name": "ths",
-   "cname": "旅遊"
+   "name": "Tourism and Hospitality Studies",
+   "cname": "旅遊與款待"
  }, {
    "id": "va",
    "group": 1,
-   "name": "va",
+   "name": "Visual Arts",
    "cname": "視覺藝術"
  }]

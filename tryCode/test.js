@@ -1,10 +1,8 @@
-const fs = require('fs');
-const CsvConverter = require('csvtojson').Converter;
-const csvtojson = new CsvConverter({
-  constructResult: false,
-  toArrayString: true
-});
+const _ = require('lodash');
+const subjects = require('../json/subjects');
 
-const readable = fs.createReadStream('/Users/CyrusN/Desktop/ranks.csv')
-const writable = fs.createWriteStream('/Users/CyrusN/Desktop/ranks.json')
-readable.pipe(csvtojson).pipe(writable)
+
+const subjectIDs = _.map(subjects, "id")
+const emptyArray = _.fill(Array(subjectIDs.length), 0)
+const noOfStudentInSubject = _.zipObject(subjectIDs, emptyArray)
+console.log(noOfStudentInSubject)

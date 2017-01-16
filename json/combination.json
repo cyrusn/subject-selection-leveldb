@@ -1,139 +1,106 @@
 [{
   "id": 0,
-  "subjects": ["phy", "chem"]
-}, {
-  "id": 1,
-  "subjects": ["phy", "cscb"]
-}, {
-  "id": 2,
-  "subjects": ["phy", "econ"]
-}, {
-  "id": 3,
-  "subjects": ["phy", "geog"]
-}, {
-  "id": 4,
-  "subjects": ["phy", "hist"]
-}, {
-  "id": 5,
-  "subjects": ["phy", "ict2"]
-}, {
-  "id": 6,
   "subjects": ["bio", "chem"]
 }, {
-  "id": 7,
-  "subjects": ["bio", "cscp"]
-}, {
-  "id": 8,
+  "id": 1,
   "subjects": ["bio", "econ"]
 }, {
-  "id": 9,
+  "id": 2,
   "subjects": ["bio", "geog"]
 }, {
-  "id": 10,
+  "id": 3,
   "subjects": ["bio", "hist"]
 }, {
-  "id": 11,
-  "subjects": ["bio", "ict2"]
+  "id": 4,
+  "subjects": ["bio", "ict"]
 }, {
-  "id": 12,
+  "id": 5,
   "subjects": ["bafs", "chem"]
 }, {
-  "id": 13,
+  "id": 6,
   "subjects": ["bafs", "cscb"]
 }, {
-  "id": 14,
-  "subjects": ["bafs", "cscp"]
-}, {
-  "id": 15,
+  "id": 7,
   "subjects": ["bafs", "econ"]
 }, {
-  "id": 16,
+  "id": 8,
   "subjects": ["bafs", "geog"]
 }, {
-  "id": 17,
+  "id": 9,
   "subjects": ["bafs", "hist"]
 }, {
+  "id": 10,
+  "subjects": ["bafs", "ict"]
+}, {
+  "id": 11,
+  "subjects": ["hist", "chem"]
+}, {
+  "id": 12,
+  "subjects": ["hist", "cscb"]
+}, {
+  "id": 13,
+  "subjects": ["hist", "econ"]
+}, {
+  "id": 14,
+  "subjects": ["hist", "geog"]
+}, {
+  "id": 15,
+  "subjects": ["hist", "hist"]
+}, {
+  "id": 16,
+  "subjects": ["hist", "ict"]
+}, {
+  "id": 17,
+  "subjects": ["phy", "chem"]
+}, {
   "id": 18,
-  "subjects": ["bafs", "ict2"]
+  "subjects": ["phy", "cscb"]
 }, {
   "id": 19,
-  "subjects": ["ths", "chem"]
+  "subjects": ["phy", "econ"]
 }, {
   "id": 20,
-  "subjects": ["ths", "cscb"]
+  "subjects": ["phy", "geog"]
 }, {
   "id": 21,
-  "subjects": ["ths", "cscp"]
+  "subjects": ["phy", "hist"]
 }, {
   "id": 22,
-  "subjects": ["ths", "econ"]
+  "subjects": ["phy", "ict"]
 }, {
   "id": 23,
-  "subjects": ["ths", "geog"]
+  "subjects": ["ths", "chem"]
 }, {
   "id": 24,
-  "subjects": ["ths", "hist"]
+  "subjects": ["ths", "cscb"]
 }, {
   "id": 25,
-  "subjects": ["ths", "ict2"]
+  "subjects": ["ths", "econ"]
 }, {
   "id": 26,
-  "subjects": ["chist", "chem"]
+  "subjects": ["ths", "geog"]
 }, {
   "id": 27,
-  "subjects": ["chist", "cscb"]
+  "subjects": ["ths", "hist"]
 }, {
   "id": 28,
-  "subjects": ["chist", "cscp"]
+  "subjects": ["ths", "ict"]
 }, {
   "id": 29,
-  "subjects": ["chist", "econ"]
-}, {
-  "id": 30,
-  "subjects": ["chist", "geog"]
-}, {
-  "id": 31,
-  "subjects": ["chist", "hist"]
-}, {
-  "id": 32,
-  "subjects": ["chist", "ict2"]
-}, {
-  "id": 33,
-  "subjects": ["ict1", "chem"]
-}, {
-  "id": 34,
-  "subjects": ["ict1", "cscb"]
-}, {
-  "id": 35,
-  "subjects": ["ict1", "cscp"]
-}, {
-  "id": 36,
-  "subjects": ["ict1", "econ"]
-}, {
-  "id": 37,
-  "subjects": ["ict1", "geog"]
-}, {
-  "id": 38,
-  "subjects": ["ict1", "hist"]
-}, {
-  "id": 39,
   "subjects": ["va", "chem"]
 }, {
-  "id": 40,
+  "id": 30,
   "subjects": ["va", "cscb"]
 }, {
-  "id": 41,
-  "subjects": ["va", "cscp"]
-}, {
-  "id": 42,
+  "id": 31,
   "subjects": ["va", "econ"]
 }, {
-  "id": 43,
+  "id": 32,
   "subjects": ["va", "geog"]
 }, {
-  "id": 44,
+  "id": 33,
   "subjects": ["va", "hist"]
 }, {
-  "id": 45,
-  "subjects": ["va", "ict2"]
+  "id": 34,
+  "subjects": ["va", "ict"]
 }]

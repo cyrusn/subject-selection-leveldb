@@ -77,26 +77,26 @@ const routes = [{
     handler: require('./handlers/subjectPriority')
   }
 }, {
-  method: 'PUT',
-  path: '/student/{username}/priority/oles',
-  config: {
-    tags: ['api'],
-    description: '[student] update subjectPriority.oles, return oles',
-    auth: {
-      access: {
-        scope: ['student']
-      }
-    },
-    validate: {
-      // no need to validate params
-      // using request.auth.credentials.username to lookup student
-      payload: {
-        oles: Joi.array().required()
-      }
-    },
-    handler: require('./handlers/subjectPriority')
-  }
-}, {
+//   method: 'PUT',
+//   path: '/student/{username}/priority/oles',
+//   config: {
+//     tags: ['api'],
+//     description: '[student] update subjectPriority.oles, return oles',
+//     auth: {
+//       access: {
+//         scope: ['student']
+//       }
+//     },
+//     validate: {
+//       // no need to validate params
+//       // using request.auth.credentials.username to lookup student
+//       payload: {
+//         oles: Joi.array().required()
+//       }
+//     },
+//     handler: require('./handlers/subjectPriority')
+//   }
+// }, {
   method: 'PUT',
   path: '/student/{username}/priority/confirm',
   config: {
@@ -215,15 +215,13 @@ const routes = [{
         bafs: Joi.number().integer().min(1),
         chist: Joi.number().integer().min(1),
         ths: Joi.number().integer().min(1),
-        ict1: Joi.number().integer().min(1),
+        ict: Joi.number().integer().min(1),
         va: Joi.number().integer().min(1),
         chem: Joi.number().integer().min(1),
         cscb: Joi.number().integer().min(1),
-        cscp: Joi.number().integer().min(1),
         econ: Joi.number().integer().min(1),
         hist: Joi.number().integer().min(1),
-        geog: Joi.number().integer().min(1),
-        ict2: Joi.number().integer().min(1)
+        geog: Joi.number().integer().min(1)
       }
     },
     handler: require('./handlers/subjectCapacity')

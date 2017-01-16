@@ -12,6 +12,7 @@
 
 const Async = require('async');
 const combination = require('../../json/combination');
+const subjects = require('../../json/subjects');
 const _ = require('lodash');
 
 // const EALLOCHELPER = require('debug')('ALLOCHELPER:E');
@@ -25,22 +26,9 @@ const _ = require('lodash');
 module.exports = function (subjectCapacity, filteredStudents, finalCallback) {
   // an array for subjects who reached the max capacity, order is preserved
   const fullSubjectsList = [];
-  const noOfStudentInSubject = {
-    phy: 0,
-    bio: 0,
-    bafs: 0,
-    chist: 0,
-    ths: 0,
-    ict1: 0,
-    va: 0,
-    chem: 0,
-    cscb: 0,
-    cscp: 0,
-    econ: 0,
-    hist: 0,
-    geog: 0,
-    ict2: 0
-  };
+  const subjectIDs = _.map(subjects, "id")
+  const emptyArray = _.fill(Array(subjectIDs.length), 0)
+  const noOfStudentInSubject = _.zipObject(subjectIDs, emptyArray)
 
   function isSubjectsAvailable (subjects) {
     const intersection = _.intersection(fullSubjectsList, subjects);

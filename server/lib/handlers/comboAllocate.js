@@ -10,11 +10,11 @@ const _ = require('lodash');
 const json2csv = require('json2csv');
 const Moment = require('moment');
 const Combination = require('../../../json/combination');
-const OleSubjects = require('../../../json/oles');
 const combo2Key = require('../../utils/csvHelper').combo2Key;
 const getComboById = require('../../utils/csvHelper').getComboById;
 const convertCombosArrayToObject = require('../../utils/csvHelper').convertCombosArrayToObject;
-const convertOlesArrayToObjectoles = require('../../utils/csvHelper').convertOlesArrayToObjectoles;
+// const OleSubjects = require('../../../json/oles');
+// const convertOlesArrayToObjectoles = require('../../utils/csvHelper').convertOlesArrayToObjectoles;
 
 module.exports = (request, reply) => {
   Async.waterfall([
@@ -89,10 +89,11 @@ module.exports = (request, reply) => {
         const rankInSubjectX2 = student.value.subjectPriority.result.rankInSubjects[1];
         const preference = student.value.subjectPriority.result.preference + 1;
         const combos = convertCombosArrayToObject(student.value.subjectPriority.combos);
-        const oles = convertOlesArrayToObjectoles(student.value.subjectPriority.oles);
+        // const oles = convertOlesArrayToObjectoles(student.value.subjectPriority.oles);
         const rank = student.rank;
 
-        return Object.assign({}, info, {rank, username, isConfirmed, assignedSubjectX1, assignedSubjectX2, rankInSubjectX1, rankInSubjectX2, preference}, ...combos, ...oles);
+        // return Object.assign({}, info, {rank, username, isConfirmed, assignedSubjectX1, assignedSubjectX2, rankInSubjectX1, rankInSubjectX2, preference}, ...combos, ...oles);
+        return Object.assign({}, info, {rank, username, isConfirmed, assignedSubjectX1, assignedSubjectX2, rankInSubjectX1, rankInSubjectX2, preference}, ...combos);
       });
 
       const header = [
@@ -103,7 +104,7 @@ module.exports = (request, reply) => {
         // combos headers
         ..._.range(Combination.length).map(comboId => combo2Key('+', getComboById(comboId))),
         // Oles header
-        ..._.pluck(OleSubjects, 'name'),
+        // ..._.pluck(OleSubjects, 'name'),
         'assignedSubjectX1',
         'assignedSubjectX2',
         'rankInSubjectX1',
