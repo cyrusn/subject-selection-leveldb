@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import DateFormatter from 'chinese-date-formatter';
+import DateFormatter from './chinese-date-formatter';
 import {
   committeeInCharge,
   committeeWebsite,
@@ -39,7 +39,7 @@ export default class LetterBody extends Component {
 
           <ul>
             <li>
-              由於各科學額及學校資源有限，選修科將按同學全年成績優次編配，而其他學習經歷科則以同學全年操行優劣編配；
+              由於各科學額及學校資源有限，選修科將按同學全年成績優次編配；
             </li>
             <li>
               學校在編排選修科目組別時會考慮同學日後出路及興趣，務求滿足大部份同學的意願，唯由於學額、教師數目、學校設備等有限，學校未必能滿足全部同學的意願；

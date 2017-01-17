@@ -1,7 +1,7 @@
 import React from 'react';
 import Combination from '../../../json/combination.json';
 import Subjects from '../../../json/subjects.json';
-import Oles from '../../../json/oles.json';
+// import Oles from '../../../json/oles.json';
 import _ from 'lodash';
 import State from '../state';
 
@@ -16,7 +16,7 @@ class Wrapper {
     this.idToSpan = idToSpan.bind(this);
     this.combination = combination;
     this.subjects = subjects;
-    this.oles = oles;
+    // this.oles = oles;
     this.length = combination.length;
   }
 }
@@ -27,16 +27,21 @@ const subjectColor = {
   'chem': 'Magenta',
   'chist': 'Crimson',
   'cscb': 'purple',
-  'cscp': 'red',
+  // 'cscp': 'red',
   'econ': 'black',
   'geog': 'cyan',
   'hist': 'orange',
-  'ict1': 'Navy',
-  'ict2': 'OrangeRed',
+  // 'ict1': 'Navy',
+  'ict': 'OrangeRed',
   'phy': 'Salmon',
   'ths': 'brown',
   'va': 'Violet'
 };
+
+const style = {
+  width: "200px"
+}
+
 
 /**
  * Convert combination id to span component
@@ -84,4 +89,5 @@ const convertSubjectCodeToText = (subject, lang) => {
   );
 };
 
-module.exports = new Wrapper(Combination, Subjects, Oles);
+// module.exports = new Wrapper(Combination, Subjects, Oles);
+module.exports = new Wrapper(Combination, Subjects);

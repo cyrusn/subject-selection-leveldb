@@ -62,7 +62,7 @@ class Combo extends Component {
 
     const style = {
       opacity: isDragging ? 0.5 : 1,
-      marginTop: '4px'
+      marginTop: '4px',
     };
 
     const Icon = (isOver)
@@ -72,7 +72,7 @@ class Combo extends Component {
     if (combo.id === undefined) {
       return (
         connectDropTarget(
-          <li style={{style}} className='hidden-print col-lg-3 col-md-3 col-sm-4 col-xs-4'>
+          <li style={{style}} className='hidden-print col-md-3 col-xs-3'>
             {(isOver) ? (
               <span className='glyphicon glyphicon-circle-arrow-down' />
               ) : null } &nbsp;&nbsp;&nbsp;&nbsp;
@@ -84,9 +84,9 @@ class Combo extends Component {
     return (
       connectDragSource(
         connectDropTarget(
-          <li style={style} className='col-lg-3 col-md-3 col-sm-4 col-xs-4'>
+          <li style={style} className='col-md-3 col-xs-3'>
             <span className='hidden-print'>{Icon}{' '}</span>
-            {idToSpan(combo.index, combo.id, 'cname', contextualColor)}
+            {idToSpan(combo.index, combo.id, 'slug', contextualColor)}
           </li>
        )
       )

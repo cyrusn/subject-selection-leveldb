@@ -2,60 +2,72 @@
    "id": "bafs",
    "group": 1,
    "name": "Business, Accounting and Financial Studies",
-   "cname": "企業、會計與財務概論"
+   "cname": "企業、會計與財務概論",
+   "slug":"企會財"
  }, {
    "id": "bio",
    "group": 1,
    "name": "Biology",
-   "cname": "生物"
+   "cname": "生物",
+   "slug":"生物"
  }, {
    "id": "chem",
    "group": 2,
    "name": "Chemistry",
-   "cname": "化學"
+   "cname": "化學",
+   "slug":"化學"
  }, {
    "id": "chist",
    "group": 1,
    "name": "Chinese History",
-   "cname": "中國歷史"
+   "cname": "中國歷史",
+   "slug":"中史"
  }, {
    "id": "cscb",
    "group": 2,
    "name": "Combine Science (Chemistry / Biology)",
-   "cname": "組合科學 (化學 / 生物)"
+   "cname": "組合科學 (化學 / 生物)",
+   "slug":"組化生"
  }, {
    "id": "econ",
    "group": 2,
    "name": "Economics",
-   "cname": "經濟"
+   "cname": "經濟",
+   "slug":"經濟"
  }, {
    "id": "geog",
    "group": 2,
    "name": "Geography",
-   "cname": "地理"
+   "cname": "地理",
+   "slug":"地理"
  }, {
    "id": "hist",
    "group": 2,
    "name": "History",
-   "cname": "歷史"
+   "cname": "歷史",
+   "slug":"歷史"
  }, {
    "id": "ict",
    "group": 2,
    "name": "Information and Communication Technology",
-   "cname": "資訊及通訊科技"
+   "cname": "資訊及通訊科技",
+   "slug":"資訊"
  }, {
    "id": "phy",
    "group": 1,
    "name": "Physics",
-   "cname": "物理"
+   "cname": "物理",
+   "slug":"物理"
  }, {
    "id": "ths",
    "group": 1,
    "name": "Tourism and Hospitality Studies",
-   "cname": "旅遊與款待"
+   "cname": "旅遊與款待",
+   "slug":"旅遊"
  }, {
    "id": "va",
    "group": 1,
    "name": "Visual Arts",
-   "cname": "視覺藝術"
+   "cname": "視覺藝術",
+   "slug":"視藝"
  }]

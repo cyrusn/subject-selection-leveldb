@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import State from '../../../state';
 import Config from '../../../config';
-import DateFormatter from 'chinese-date-formatter';
+import DateFormatter from './chinese-date-formatter';
 
 import Tab from './constant/tab';
 

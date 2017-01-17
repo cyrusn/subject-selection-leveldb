@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import State from '../../../state';
 import { deliveryDate, isMock, mockTitle, title } from '../../../config.json';
-import DateFormatter from 'chinese-date-formatter';
+import DateFormatter from './chinese-date-formatter';
 import 'moment/locale/zh-tw';
 import Space from './constant/space';
 

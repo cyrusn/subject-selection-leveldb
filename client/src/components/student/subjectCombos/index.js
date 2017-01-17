@@ -18,7 +18,7 @@ export default class SubjectCombos extends Component {
           <ReplyNotice />
         </div>
         <div className='container'>
-          <h1>甲部：選修科目<small>（請按優次將選科意願排序。）</small></h1>
+          <h1>選修科目<small>（請按優次將選科意願排序。）</small></h1>
           {
             isConfirmed
             ? <ComfirmedText />
@@ -29,7 +29,6 @@ export default class SubjectCombos extends Component {
           }
           <SelectedCombos />
         </div>
-        <div className='page-break'/>
         <div className='page-header hidden-print' />
       </div>
     );

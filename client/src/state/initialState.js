@@ -8,7 +8,6 @@ module.exports = {
   },
   subjectPriority: {
     combos: [],
-    oles: [],
     isConfirmed: false
   },
   admin: {
@@ -19,15 +18,13 @@ module.exports = {
         bafs: 0,
         chist: 0,
         ths: 0,
-        ict1: 0,
         va: 0,
         chem: 0,
         cscb: 0,
-        cscp: 0,
         econ: 0,
         hist: 0,
         geog: 0,
-        ict2: 0
+        ict: 0
       },
       studentRank: [],
       result: []

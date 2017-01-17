@@ -3,8 +3,8 @@ import {TriggerAction} from '../../reactions/utils';
 import State from '../../state';
 
 const subjects = {
-  'group1': ['phy', 'bio', 'bafs', 'chist', 'ths', 'ict1', 'va'],
-  'group2': ['chem', 'cscb', 'cscp', 'econ', 'hist', 'geog', 'ict2']
+  'group1': ['phy', 'bio', 'bafs', 'chist', 'ths', 'va'],
+  'group2': ['chem', 'cscb', 'econ', 'hist', 'geog', 'ict']
 };
 
 export default class Capacity extends Component {

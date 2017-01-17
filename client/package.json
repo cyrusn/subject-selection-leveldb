@@ -1,6 +1,6 @@
 {
   "name": "f4-subject-selection",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "F4 Subject Selection client",
   "main": "main.js",
   "scripts": {

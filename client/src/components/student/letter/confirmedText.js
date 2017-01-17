@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {deadline} from '../../../config';
-import DateFormatter from 'chinese-date-formatter';
+import DateFormatter from './chinese-date-formatter';
 import 'moment/locale/zh-tw';
 
 export default class ComfirmedText extends Component {
