@@ -17,20 +17,30 @@ const Swagger = {
       title: 'F4 Subject-Selection API Documentation',
       version: Pack.version
     },
-    payloadType: 'form'
-  }
+    payloadType: 'form',
+		documentationPath: '/ss/documentation',
+		jsonPath: '/ss/swagger.json',
+		pathPrefixSize: 2
+	}
 };
 
 const server = new Hapi.Server();
 
 server.connection({
   port: Port,
-  routes: {
+	host: '0.0.0.0', 
+	routes: {
     cors: {
-      credentials: isServePublic
+			credentials: !isServePublic,
+			origin: ["*"]
     }
   }
 });
+
+function prefixize(route) {
+	route.path = "/ss" + route.path
+	return route
+}
 
 server.register([Session, Inert, Logging, Vision, Swagger], function (err) {
   if (err) return;
@@ -42,7 +52,7 @@ server.register([Session, Inert, Logging, Vision, Swagger], function (err) {
     ttl: 30 * 60 * 1000
   });
 
-  server.route(Route);
+  server.route(Route.map(prefixize));
 
   server.start(function () {
     console.log('Server port: ' + Port);

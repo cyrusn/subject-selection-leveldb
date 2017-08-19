@@ -58,7 +58,7 @@ const comboTarget = {
 
 class Combo extends Component {
   render () {
-    const { contextualColor, isOver, isDragging, connectDragSource, connectDropTarget, combo } = this.props;
+    const { zone, contextualColor, isOver, isDragging, connectDragSource, connectDropTarget, combo } = this.props;
 
     const style = {
       opacity: isDragging ? 0.5 : 1,
@@ -80,11 +80,25 @@ class Combo extends Component {
         )
       );
     }
+	const _onDoubleClick =(zone, combo) =>{
+			
+			const isConfirmed = State.get().subjectPriority.isConfirmed
+			if (isConfirmed) return ;
 
+			switch(zone) {
+			  case 'remaining':
+					TriggerAction('combos:push', combo.id);
+					break	
+				case 'selected':
+					TriggerAction('combos:remove', combo.index);
+					break
+			}
+			TriggerAction('combos:save');
+  }
     return (
       connectDragSource(
         connectDropTarget(
-          <li style={style} className='col-md-3 col-xs-3'>
+          <li style={style} className='col-md-3 col-xs-3' onDoubleClick={() => _onDoubleClick(zone, combo)}>
             <span className='hidden-print'>{Icon}{' '}</span>
             {idToSpan(combo.index, combo.id, 'slug', contextualColor)}
           </li>

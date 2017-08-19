@@ -14,7 +14,7 @@ export default class SignArea extends Component {
     };
 
     const {info} = State.get();
-    const {cname, name} = info;
+    const {cname, name, classNo } = info;
     const formattedReturnYear = new DateFormatter(new Date(Config.returnYear));
 
     return (
@@ -31,7 +31,7 @@ export default class SignArea extends Component {
               <tbody>
                 <tr>
                   <td>班別學號:</td>
-                  <td style={style}>{name}</td>
+                  <td style={style}>{classNo}</td>
                 </tr>
                 <tr>
                   <td>姓名:</td>
@@ -58,8 +58,8 @@ export default class SignArea extends Component {
         <div className='row'>
           <div className='pull-left'>
             {formattedReturnYear.year}
-            <span style={{marginLeft: '24px'}}>月{''}</span>
-            <span style={{marginLeft: '24px'}}>日{''}</span>
+            <span style={{marginLeft: '48px'}}>月{''}</span>
+            <span style={{marginLeft: '48px'}}>日{''}</span>
           </div>
         </div>
       </div>

@@ -33,22 +33,22 @@
   "subjects": ["bafs", "ict"]
 }, {
   "id": 11,
-  "subjects": ["hist", "chem"]
+  "subjects": ["chist", "chem"]
 }, {
   "id": 12,
-  "subjects": ["hist", "cscb"]
+  "subjects": ["chist", "cscb"]
 }, {
   "id": 13,
-  "subjects": ["hist", "econ"]
+  "subjects": ["chist", "econ"]
 }, {
   "id": 14,
-  "subjects": ["hist", "geog"]
+  "subjects": ["chist", "geog"]
 }, {
   "id": 15,
-  "subjects": ["hist", "hist"]
+  "subjects": ["chist", "hist"]
 }, {
   "id": 16,
-  "subjects": ["hist", "ict"]
+  "subjects": ["chist", "ict"]
 }, {
   "id": 17,
   "subjects": ["phy", "chem"]

@@ -20,7 +20,8 @@ module.exports = (request, reply) => {
     },
     // checkPassword
     (payload, value, callback) => {
-      Bcrypt.compare(payload.password, value.info.password, (err, isValid) => {
+// console.log(value)
+						Bcrypt.compare(payload.password, value.info.password, (err, isValid) => {
         if (err || !isValid) {
           return callback(Boom.unauthorized('Invalid username or password'));
         }

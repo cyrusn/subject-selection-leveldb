@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { TriggerAction } from '../reactions/utils';
 import {serverBase} from '../config';
 import State from '../state';
+import _ from 'lodash';
 
 export default class List extends Component {
   constructor (props) {
@@ -56,7 +57,7 @@ export default class List extends Component {
                   <th>更改確定</th>
                 </tr>
                 {
-                  list
+                  _.sortBy(list, "info.classNo")
                   .filter((student, i) => {
                     // console.log(student);
                     const {isConfirmed} = student.subjectPriority;

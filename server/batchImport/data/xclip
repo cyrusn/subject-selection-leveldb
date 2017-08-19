@@ -1,0 +1,66 @@
+[{
+    "username": "lpcyn",
+    "password": "secret",
+    "name": "Ngan Chiu Yeung",
+    "cname": "顏昭洋"
+}, {
+    "username": "lpjy",
+    "password": "secret",
+    "name": "Yip Man Chun",
+    "cname": "葉文駿"
+}, {
+    "username": "lpfsc",
+    "password": "secret",
+    "name": "Chan Fu Shing",
+    "cname": "陳輔成"
+}, {
+    "username": "lpkwp",
+    "password": "secret",
+    "name": "Pang Kwan Wah",
+    "cname": "彭君華"
+}, {
+    "username": "lpwkh",
+    "password": "secret",
+    "name": "Ho Wing Kit",
+    "cname": "何永傑"
+}, {
+    "username": "lpcyl",
+    "password": "secret",
+    "name": "Lui Ching Yeung",
+    "cname": "呂青楊"
+}, {
+    "username": "lpwct",
+    "password": "secret",
+    "name": "Tsang Wai Chun",
+    "cname": "曾偉俊"
+}, {
+    "username": "lpwyw",
+    "password": "secret",
+    "name": "Wu Wai Yau",
+    "cname": "胡惠柔"
+}, {
+    "username": "lpmcy",
+		"password": "secret",
+		"name": "Wu Wai Yau",
+		"cname": "胡惠柔"
+}, {
+		"username": "lpsmt",
+		"password": "secret",
+		"name": "Tang Suk Ming",
+		"cname": "鄧淑明"
+}, {
+		"username": "lpmwl",
+		"password": "secret",
+		"name": " Lai Mei Wah",
+		"cname": "黎美華"
+}, {
+		"username": "lpkyc",
+		"password": "secret",
+		"name": "Chan Ka Yi",
+		"cname": "陳嘉兒"
+}, {
+		"username": "lpkml",
+		"password": "secret",
+		"name": "Leung Kin Man",
+		"cname": "梁健民"
+}]

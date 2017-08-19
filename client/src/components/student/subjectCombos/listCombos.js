@@ -6,7 +6,7 @@ class ListCombos extends Component {
 
   render () {
     // combos is an array of number from 0 to 45;
-    const {combos, zone, contextualColor} = this.props;
+    const {combos, zone, contextualColor, isConfirmed} = this.props;
     return (
       <div>
         <ul className='list-inline'>
@@ -16,7 +16,8 @@ class ListCombos extends Component {
                 key={i}
                 combo={{id: combo, index: i}}
                 zone={zone}
-                contextualColor={contextualColor} />
+								isConfirmed={isConfirmed}
+								contextualColor={contextualColor} />
             );
           })}
           <Combo zone={zone} combo={{index: length}} />

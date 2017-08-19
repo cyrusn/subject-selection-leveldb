@@ -6,12 +6,12 @@
   "committeeInCharge": "生涯規劃部",
   "committeeWebsite": "http://careers.liping.edu.hk",
   "schoolYear": "2016-17",
-  "noticeCode": "XXX/2016-2017",
+  "noticeCode": "39/2016-2017",
   "pics": ["曾偉俊", "葉文駿"],
   "committeeHead" : "顏昭洋",
-  "deliveryDate": "2017-04-19",
+  "deliveryDate": "2017-06-22",
   "returnYear": "2017",
-  "deadline": "2017-05-05",
-  "isMock": true,
-  "serverBase": "http://localhost:3000"
+  "deadline": "2017-06-28",
+  "isMock": false,
+  "serverBase": "https://careers.liping.edu.hk/ss"
 }

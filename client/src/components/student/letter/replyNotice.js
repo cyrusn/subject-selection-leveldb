@@ -15,7 +15,7 @@ export default class ReplyNotice extends Component {
       <div className='container'>
         <h2 className='page-header text-center'>回條</h2>
         <p>
-          敬覆者：頃接<Space />貴校{formattedDeliveryDate.full}來函，本人知悉有關{isMock ? mockTitle : title}事宜，以下為學生{classNo} {cname} 之{isMock ? '模擬' : ''}選科表。
+          敬覆者：頃接<Space />貴校{formattedDeliveryDate.full}來函，本人知悉有關{isMock ? mockTitle : title}事宜，以下為學生{classNo} {cname} 之{isMock ? '模擬' : ''}選科表。{ isMock ? null: '本人及敝子弟明白是次為正式選科，選科回條一經繳交，將不能更改志願。' }
         </p>
       </div>
     );

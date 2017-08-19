@@ -4,12 +4,12 @@ import State from '../../../state';
 
 class SelectedCombos extends Component {
   render () {
-    const {combos} = State.get().subjectPriority;
+    const {combos, isConfirmed} = State.get().subjectPriority;
     return (
       <div>
         <div className='panel panel-info'>
           <div className='panel-heading'>
-            <h3>已確定選科次序
+            <h3>已{isConfirmed ? '確定' : '選擇的'}選科次序
               <small className='text-info hidden-print'>
                 {'  '}（請將以上選科項目拖到以下方格內，並按優次將選科意願排序。）
               </small>
@@ -19,7 +19,8 @@ class SelectedCombos extends Component {
             <ListCombos
               zone='selected'
               contextualColor='info'
-              combos= {combos}
+              isConfirmed={isConfirmed}
+							combos= {combos}
             />
           </div>
         </div>

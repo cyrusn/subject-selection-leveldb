@@ -39,6 +39,7 @@
   "devDependencies": {
     "code": "^2.1.0",
     "lab": "^8.0.1",
+    "leveldown": "^1.5.3",
     "semistandard": "^7.0.4"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "dbName": "subjectSelection1617-mock",
-  "port": 3000,
-  "isServePublic": true
+  "dbName": "subjectSelection1617",
+  "port": 6000,
+  "isServePublic": true 
 }

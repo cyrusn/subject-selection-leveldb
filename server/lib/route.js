@@ -295,6 +295,24 @@ const routes = [{
     },
     handler: require('./handlers/comboAllocate')
   }
+}, {
+		method: 'POST',
+		path: '/user/delete',
+		config: {		
+			tags: ['api'],
+			description: '[superAdmin] delete users, use http agent to do the job',
+			auth: {
+				access: {
+   				scope: ['admin']
+				}
+			},
+			validate: {
+				payload: {
+					username: Joi.string().required(),
+				}
+			},
+			handler: require('./handlers/deleteUser')
+	}
 }];
 
 if (require('../config').isServePublic) {

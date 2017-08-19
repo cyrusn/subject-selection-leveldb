@@ -19,7 +19,7 @@ module.exports = (request, reply) => {
     (data, callback) => {
       if (request.method === 'get') return callback(null, data.subjectPriority);
 
-      const result = _.defaultsDeep({subjectPriority: request.payload}, data);
+      const result = _.defaults({subjectPriority: request.payload}, data);
       DB.put(username, result, err => {
         if (err) return callback(Boom.serverTimeout(err));
         return callback(null, result.subjectPriority);

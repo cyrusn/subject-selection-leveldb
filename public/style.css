@@ -32,7 +32,7 @@
   body {
     /* this affects the margin on the content before sending to printer */
     margin: 0px;
-    font-size: 200%;
+    font-size: 250%;
     font-family: 'Times New Roman';
   }
 

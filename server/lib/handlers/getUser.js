@@ -9,7 +9,7 @@ module.exports = (request, reply) => {
 
   DB.get(username, (err, value) => {
     if (err) return reply(Boom.serverTimeout(err));
-    delete value.info.password;
+		delete value.info.password;
     return reply({
       key: username,
       value
