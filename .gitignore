@@ -108,6 +108,6 @@ typings/
 # dotenv environment variables file
 .env
 
-db/
-db/*.json
+db/*
+!db/.gitkeep
 server/batchImport/data/*.json
